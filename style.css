@@ -1,0 +1,77 @@
+* {
+margin: 0;
+padding: 0;
+}
+.header {
+padding-top: 45px;
+background: #FFF;
+}
+.header_link{
+color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header_link_2{
+color: #F25822;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header_logo{
+color: #000;
+font-family: Gilroy-Bold;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header_logo_2{
+color: #F25822;
+font-family: Gilroy-Bold;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+a{
+text-decoration: none;
+}
+.title{
+color: #000;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.top_text{
+color: #888;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.top_button_1{
+color: #FFF;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.top_button_2{
+color: #AAA;
+font-family: Gilroy-Bold;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.abount_logo_img{
+padding-top: 97px;
+padding-bottom: 96px;
+}
+.top{
+padding-top: 164px;
+}
