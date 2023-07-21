@@ -2,9 +2,24 @@
 margin: 0;
 padding: 0;
 }
+body {
+font-family: 'Roboto', sans-serif;
+}
 .header {
-padding-top: 45px;
+padding-top: 40px;
 background: #FFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center
+
+align-items: center;
+}
+.center {
+padding-left: calc(50% - 590px);
+padding-right: calc(50% - 590px);
 }
 .header_link{
 color: #000;
@@ -22,24 +37,31 @@ line-height: normal;
 }
 .header_logo{
 color: #000;
-font-family: Gilroy-Bold;
 font-size: 24px;
-font-style: normal;
+font-style: bold;
 font-weight: 400;
 line-height: normal;
+display: flex;
+align-items: center;
+margin-left: 14px;
+
 }
 .header_logo_2{
 color: #F25822;
-font-family: Gilroy-Bold;
 font-size: 24px;
-font-style: normal;
+font-style: bold;
 font-weight: 400;
 line-height: normal;
 }
-a{
+.header_menu {
+display: flex;
+gap: 34px;
+}
+a {
 text-decoration: none;
 }
 .title{
+width: 522px;
 color: #000;
 font-size: 60px;
 font-style: normal;
@@ -47,11 +69,13 @@ font-weight: 400;
 line-height: normal;
 }
 .top_text{
+width: 466px;
 color: #888;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+padding-top: 17px;
 }
 .top_button_1{
 color: #FFF;
@@ -59,6 +83,7 @@ font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+width: 140px;
 }
 .top_button_2{
 color: #AAA;
@@ -72,6 +97,45 @@ line-height: normal;
 padding-top: 97px;
 padding-bottom: 96px;
 }
-.top{
-padding-top: 164px;
+.top {
+    padding-top: 164px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.abount_logo {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.top_offer_buttom_1{
+position: relative;
+}
+.top_button_1_text {
+color: #FFF;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top: 19px;
+left: 38px;
+}
+.top_offer_buttom{
+
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 37px;
+    gap: 72px;
 }
